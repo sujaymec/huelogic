@@ -1,0 +1,29 @@
+name: Deploy Static Website to Hostinger
+
+on:
+  push:
+    branches:
+      - main  # Deploy only when changes are pushed to the main branch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Check out the repository code
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      # Step 2: Upload files via FTP
+      - name: Deploy to Hostinger via FTP
+        uses: SamKirkland/FTP-Deploy-Action@4.2.0
+        with:
+          server: ftp://193.203.185.160
+          username: u764122208
+          password: wordP@ss123
+          local-dir: ./  # Local directory containing the website files
+          server-dir: /public_html/  # Hostinger's root directory for your website
+          exclude: |
+            .git*
+            .github/
+            README.md
