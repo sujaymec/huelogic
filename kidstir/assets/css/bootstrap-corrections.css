@@ -1,0 +1,106 @@
+/* Bootstrap Corrections */
+
+label{font-weight: normal;cursor: pointer;}
+
+.navbar{margin-bottom: 0px;}
+.navbar-default{
+	border: none;
+	background: url('../img/green-texture.jpg');
+	box-shadow: none;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a{
+	background: none;
+	box-shadow: none;
+}
+
+.navbar-right a{color: #f0df6f !important; font:normal 22px/1.2em Arial, sans-serif}
+
+.navbar-default .navbar-toggle .icon-bar{background-color: #fff}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img{width: 100%;}
+.carousel-control, .carousel-indicators{display: none;}
+.carousel.fade {
+  opacity: 1;
+}
+.carousel.fade .item {
+  -moz-transition: opacity ease-in-out .7s;
+  -o-transition: opacity ease-in-out .7s;
+  -webkit-transition: opacity ease-in-out .7s;
+  transition: opacity ease-in-out .7s;
+  left: 0 !important;
+  opacity: 0;
+  top:0;
+  position:absolute;
+  width: 100%;
+  display:block !important;
+  z-index:1;
+}
+.carousel.fade .item:first-child {
+  top:auto;
+  position:relative;
+}
+.carousel.fade .item.active {
+  opacity: 1;
+  -moz-transition: opacity ease-in-out .7s;
+  -o-transition: opacity ease-in-out .7s;
+  -webkit-transition: opacity ease-in-out .7s;
+  transition: opacity ease-in-out .7s;
+  z-index:2;
+}
+/* End of carousel mod */
+
+/* Pagination */
+
+ul.pagination{margin-bottom: 0px;}
+ul.pagination li a{color: #7d4b33;border: none;background: #f0f0f0;margin: auto 3px;border-radius: 5px;}
+ul.pagination li.active a, ul.pagination li.disabled a{color: #777;background: none}
+ul.pagination li.active a:hover, ul.pagination li.active a:focus{background: none;color: #777}
+
+
+/* Modal */
+
+.modal-header {
+    min-height: 0px;
+    padding: 15px;
+    border-bottom: none;
+}
+.modal-content{
+  background: none;
+  border: 0px;
+  box-shadow: none;
+}
+.close, .close:focus, .close:hover{color: #fff;outline: none;}
+.modal-header .close{
+  margin-top: 0px;
+  margin-right: 0px;
+  position: relative;
+  top: 7px;
+  right: 0px;
+  z-index: 10;
+  border-radius: 50%;
+  background-color: #000;
+  padding: 1px 8px 6px;
+  opacity: 1; 
+}
+
+
+
+
+
+
+@media (min-width:768px){
+.navbar-right{margin-top: 45px}
+.navbar-brand{height: auto}
+}
+
+
+@media (max-width:992px){
+.no-pad-max-992{padding: 0px;}
+}
+
+@media (max-width:768px){
+.navbar-brand>img{height: 100%}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{border: none;}
+
+}
