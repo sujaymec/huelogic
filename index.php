@@ -91,7 +91,6 @@
                         <div class="social-links">
                             <a href="javascript:void(0)" class="link pr-1"><i class="ti-facebook"></i></a>
                             <a href="javascript:void(0)" class="link pr-1"><i class="ti-twitter-alt"></i></a>
-                            <!-- <a href="javascript:void(0)" class="link pr-1"><i class="ti-google"></i></a> -->
                             <!-- <a href="javascript:void(0)" class="link pr-1"><i class="ti-pinterest-alt"></i></a> -->
                             <a href="javascript:void(0)" class="link pr-1"><i class="ti-instagram"></i></a>
                             <!-- <a href="javascript:void(0)" class="link pr-1"><i class="ti-rss"></i></a> -->
