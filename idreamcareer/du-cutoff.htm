@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+
+<head>
+<title>DU Cutoff Predictor | iDreamCareer</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="icon" href="img/logo.png" type="image/x-icon" />
+
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+</head>
+
+<body>
+<body>
+<div class="container-fluid du-calculator" style="background:#000">
+  <div class="container">
+    <a href="#" class="pull-right"><i class="fa fa-calculator" style="font-size:18px"></i>&nbsp; DU Cut-off Calculator</a>
+    <p class="pull-right mobile-remove">Use our predictor to know where you stand in the Delhi University rankings as per your 12th aggregate percentage</p>
+  </div>
+</div>
+
+    <div class="container padding-remove-mobile">
+
+<!-- Logo and Buttons -->
+
+      <div class="container">
+        <a href="index.htm" id="logo" class="pull-left"><img src="img/logo.png"></a>
+        <div id="top-buttons" class="pull-right" >
+          <div class="btn btn-primary pull-left">Be A Partner</div>
+          <p class="talk-mentor pull-left text-center">Talk to a Mentor<br>011 - 46011340</p>
+          <div class="btn btn-primary pull-left">Sign In / Register</div>
+        </div>
+      </div>
+
+<!-- Nav Bar -->
+
+      <nav class="navbar navbar-inverse">
+        <div class="">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <!-- <a class="navbar-brand" href="#">Project name</a> -->
+          </div>
+          <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav nav-justified">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#about">About iDC</a></li>
+              <li><a href="#contact">Career Planning</a></li>
+              <li><a href="#">Explore Mentors</a></li>
+              <li><a href="#about">Career Kit</a></li>
+              <li><a href="#contact">Program Pricing</a></li>
+              <li><a href="#about">Blog</a></li>
+              <li><a href="#contact">Contact Us</a></li>            
+
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </nav>
+
+<!-- Main Section -->
+
+<style type="text/css">
+.panel-default > .panel-heading{background: #207EB2;color: #fff}
+.about .panel-default > .panel-heading a{text-decoration: none;display: block;width: 100%;height: 100%}
+/*.about .panel-body p{white-space: pre-line}*/
+/*.about .panel-body h3{margin-top: -15px}*/
+img.w100{width: 100px;margin-right: 20px}
+.partner ul, .partner ol{margin-left: 20px}
+.du-cutoff .container-fluid.white{  background: #fff;  margin-top: -20px;  padding: 20px 15px;  border-radius: 10px; margin-bottom: 20px}
+.du-cutoff h3{margin: 0px auto 30px;text-align: center;}
+.iat img{width: 100%}
+.iat{text-align: justify;}
+#calculator p{font-size: 16px;margin-bottom: 5px}
+.table-responsive{margin-top: 50px;}
+.table-responsive th{background: #337AB7;color: #fff}
+input.form-control, select.form-control{margin-bottom:25px;}
+p.disclaimer{font-size: 12px; color: #aaa;}/*width: 80%;margin: auto*/
+@media screen and (min-width: 768px){
+/*input.form-control, select.form-control{width: 300px; margin-bottom:25px;}*/
+}
+#du-banner{width: 100%;border-radius: 10px;background: #fff;}
+#du-text{text-align: center;padding: 15px 20px; color: #207EB2; font-weight: bold;}
+.du-cutoff ul{margin-bottom: 20px;padding: 0px 20px}
+#tool-container{background: #e0eaf5;padding: 20px 10px;border-radius: 10px}
+.cta{margin: auto;  display: block;  width: 200px;}
+.helper-text{margin-right: 10px;color: #777}
+</style>
+
+      <div id="sky-background" class="blue-back br-10 du-cutoff">
+        <h2 class="text-center">DU Cut Off Predictor</h2>
+          <img src="img/1.png" id="du-banner">
+
+        <div class="container-fluid white">
+
+<p id="du-text">Targeting Delhi University  admissions? With ever-changing cut-offs we know it's difficult to figure out which college or course you can get through.
+Finally! A Predictor tool that can help solve the mystery of Delhi University Cut-offs</p>
+
+
+<div id="tool-container" class="col-xs-12 col-sm-6 pull-right">
+          <div class="container-fluid">
+            <h4 class="text-center">DU Cut-Off Predictor Tool</h4>
+            <p class="text-center">Go ahead and feed your details to get the prediction of 
+            the college wise cut off scores of Delhi University</p>
+          </div>
+          <form id="calculator">
+            <div class="col-sm-12">
+              <p>Name *</p>
+              <input type="text" class="form-control col-sm-3">
+            </div>
+            <div class="col-sm-12">
+              <p>Stream in class 12 *</p>
+              <select class="form-control">
+                <option>One</option>
+                <option>Two</option>
+                <option>Three</option>
+              </select>
+            </div>
+            <div class="col-sm-12">
+              <p>Percentage in Class 12 *</p>
+              <input type="text" class="form-control col-sm-3" style="width:50px">
+              <!-- <p>Helper text goes here</p> -->
+            </div>            
+            <div class="col-sm-12">
+              <p>Course Applying For *</p>
+              <select class="form-control">
+                <option>One</option>
+                <option>Two</option>
+                <option>Three</option>
+              </select>
+            </div>
+            <div class="col-sm-12">
+              <p>Category *</p>
+              <select class="form-control">
+                <option>One</option>
+                <option>Two</option>
+                <option>Three</option>
+              </select>
+            </div>   
+            <div class="col-sm-12">
+              <p>E-mail Address *</p>
+              <input type="text" class="form-control col-sm-3">
+            </div>
+            <div class="col-sm-12">
+              <p>Phone Number *</p>
+              <input type="text" class="form-control col-sm-3">
+            </div>
+            <div class="col-sm-12">
+              <input type="submit" value="Submit" class="btn btn-primary">
+            </div>                   
+          </form>
+</div>
+
+<div class="col-xs-12 col-sm-6">
+
+  <h4>Why is it Important</h4>
+  <ul>
+    <li>Delhi University is one of the pioneering universities in India.</li>
+    <li>During the admission time, there is a lot of ambiguity regarding the DU cut-offs.</li>
+    <li>The cut-off scores are very dynamic and keeps changing every year.</li>
+  </ul>
+
+
+  <h4>Common Issues with Cut-offs</h4>
+  <ul>
+    <li>It's difficult to plan future course of action due to the dynamic cut-offs of DU</li>
+    <li>Many students are left disheartened every year when they find out that they don't qualify 
+due to the high cut-off</li>
+    <li>Some students don't apply expecting a high cut off and later realize that they could have 
+got a seat.</li>
+    <li>Students find themselves un-prepared when the cut-offs vary from their expectations.</li>
+    <li>Admission in many other universities are closed by the time the Delhi cut offs are released.</li>
+  </ul>
+
+
+  <h4>DU Cut-off Prediction Tool</h4>
+  <ul>
+    <li>iDC has devised a prediction tool that can predict the cut-off scores for Delhi University 
+courses and colleges.</li>
+    <li>After compiling the cut off scores of previous years, we have identified a trend which 
+enables us to make an educated prediction.</li>
+    <li>Cut off prediction tool helps the students in getting a guesstimate of the probable cut off 
+for various Delhi University courses.</li>
+    <li>Student won't have to struggle with long spreadsheets of cut off scores of past years.</li>
+  </ul>
+
+</div>
+
+
+<div class="col-xs-12">
+      <div class="table-responsive">          
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Basis Past Year Cut-off</th>
+              <th>iDC Predicted College List</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>College 1</td>
+              <td>College 2</td>
+            </tr>
+            <tr>
+              <td>College 3</td>
+              <td>College 4</td>
+            </tr>
+            <tr>
+              <td>College 5</td>
+              <td>College 6</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+</div>
+
+<p class="disclaimer col-xs-12">
+*DISCLAIMER: The iDC DU Cut-off Prediction Tool calculates the cut off scores based on previous year results. Hence, it may vary depending on the current years admission details. This prediction should only be considered as an estimate.
+</p>
+
+
+
+<br style="clear:both">
+<a href="#" class="btn btn-danger cta">Call to Action</a>
+
+        </div><!-- end of container-fluid -->
+
+
+      </div><!-- End of Sky-Background -->
+
+
+
+  
+
+    </div><!-- /.container (main) -->
+
+
+
+
+<footer>
+  <div class="container">
+
+    <div class="col-sm-3 footer-menu">
+      <h4>Main Links</h4>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About iDC</a></li>
+        <li><a href="#">Partner With Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+
+    <div class="col-sm-3 footer-menu">
+      <h4>Career Planning Program</h4>
+      <ul>
+        <li><a href="#">iDC Career Assessments</a></li>
+        <li><a href="#">Student Dashboard</a></li>
+        <li><a href="#">One-on-One Mentoring</a></li>
+        <li><a href="#">Career Information</a></li>
+        <li><a href="#">College Information</a></li>
+        <li><a href="#">Benefit to Students & Parents</a></li>
+      </ul>
+    </div>
+
+    <div class="col-sm-3 footer-menu">
+      <h4>Explore More</h4>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About iDC</a></li>
+        <li><a href="#">Partner With Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+
+    <div class="col-sm-3 footer-menu">
+      <h4>Other Links</h4>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About iDC</a></li>
+        <li><a href="#">Partner With Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+
+  </div>
+</footer>
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</body>

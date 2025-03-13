@@ -1,0 +1,428 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+/* Common Classes */
+.br-10{border-radius: 10px}
+.no-br{border: 0px!important}
+.space-40-20{margin-top: 40px;margin-bottom: 20px}
+.no-padding{padding: 0px}
+.unseen{visibility: hidden;}
+.mt-20{margin-top: 20px!important}
+
+.du-calculator{color: #fefefe;line-height: 35px}
+.du-calculator p{margin: 0px;color: #cbcbcb;font-style: italic;font-weight: 500}
+.du-calculator a{display:block;color:#fff;height:100%;background: #666;padding: 0px 10px;margin-left: 20px;text-decoration: none}
+.du-calculator a:hover{text-decoration: none}
+
+#top-buttons{margin: 40px 30px 0 0}
+
+/* Head Section */
+.navbar{min-height: 0;border: 0px;margin-bottom: 10px;}
+.navbar-collapse{padding: 0px}
+
+.navbar.navbar-inverse{
+		background: -moz-linear-gradient(top,  #eeeeee 0%, #cccccc 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eeeeee), color-stop(100%,#cccccc)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  #eeeeee 0%,#cccccc 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  #eeeeee 0%,#cccccc 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  #eeeeee 0%,#cccccc 100%); /* IE10+ */
+		background: linear-gradient(to bottom,  #eeeeee 0%,#cccccc 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
+
+}
+
+/*.navbar-inverse .navbar-toggle{border: 1px solid #fff}*/
+a#logo{margin: 10px 0px;display: block;}
+#logo img{width: 110px}
+
+.talk-mentor{  margin: -5px 20px;  font-weight: 500;  font-size: 16px;  color: #666;  padding-left: 40px;  background: url('../img/mentor-phone.png')no-repeat;  background-size: contain;}
+
+
+.navbar-toggle{width: 88px}
+.menu-text{  position: absolute;  top: 5px;  color: #fff;  font-size: 16px;right: 7px}
+
+/* Alerts */
+.alerts{font-weight: 600;font-style: italic;height: 20px;overflow: hidden;color: #207eb2}
+.alerts i{margin: 0 20px}
+
+/* Banner - Carousel */
+#myCarousel{margin: 40px 0 0;  border-radius: 10px;background:url('../img/banner-cloud.png')no-repeat #e0eaf5}
+a[href="#myCarousel"], a[href="#myCarousel2"]{background: none !important}
+.carousel-control{width: 7%}
+
+/* Achievements */
+#achievements{padding: 20px 0 0;}
+#achievements div{float: left;width: 20%;text-align: center;  font-weight: 900;  color: #207eb2;  font-size: 16px;  padding: 0px 20px;}
+
+/* Career Planning Kit */
+.blue-back{background: #e0eaf5;padding: 20px 0}
+
+/* Blog */
+#blog .date{font-style: italic;font-weight: 600;font-size: 13px}
+#blog img{width: 100%}
+.read-more{font-style: italic;color: #207eb2;text-decoration: none;}
+.blog-post article{font-size: 13px; line-height: 18px}
+
+/* Explore mentors */
+#explore-mentors{position: relative;}
+#mentor-desc{  background: #fff;  border-radius: 10px;  padding: 10px 20px 0;  position: absolute; left:20px;  top: 20px;  bottom: 20px;}
+#mentor-desc ul{  margin-left: 20px;}
+#mentor-desc ul li{margin-top: 20px;font-weight: 500}
+.mentor{position: relative;width: 25%;padding: 0 25px}
+.mentor img{width: 100%}
+.mentor-name{position: absolute;bottom: 0px;left: 25px;right: 25px;background: #555;color: #fff;margin: 0px;padding: 2px 0;opacity: 0.6;font-size: 11px}
+
+/* Clients */
+#client-logos img{display: block;margin: auto;width: 100%}
+
+/* Testimonials */
+#myCarousel2{background: #ebebeb;border-radius: 10px;padding: 20px 0;margin-top: -30px}
+#myCarousel2 ol.carousel-indicators{display: none}
+.testimonial{width: 70%;margin: auto}
+.testimonial p{color: #666;width: 90%;padding: 20px 0;margin: auto}
+.testimonial h5.testimonial-author{margin-bottom: -10px}
+
+/* Post Your Query Modal */
+#query-form .form-control{margin-bottom: 10px}
+#query-form	textarea{height: 100px;}
+.asterix{color: red}
+#thank-you{text-align: center;display: none;margin-bottom: 50px}
+
+/* Footer */
+footer{background: #00608a;margin-top: 20px}
+.footer-menu ul{list-style: none}
+.footer-menu h4, .footer-menu a{color: #fff}
+.footer-menu h4{margin: 15px 0}
+.footer-menu a{font-size: 13px}
+
+#footer-nl{background: #0084ca}
+#footer-nl h5{color: #fff;text-align: center;font-weight: 900;  font-size: 16px;}
+#footer-nl input{margin-top: 5px}
+
+div#sub-footer{background: #00608a}
+div#sub-footer p{color: #fff;margin: 5px auto}
+
+ul#social-media li{text-align: center;padding-top: 8px}
+ul#social-media li i{font-size: 25px}
+li.facebook{background: #3b5998!important}
+li.twitter{background: #00aced!important}
+li.googleplus{background: #dd4b39!important}
+li.youtube{background: #e52d27!important}
+
+
+
+
+/* Career Planning Pages */
+#sky-background{background-image:url('../img/clouds.png');background-repeat: no-repeat;background-size: contain}
+#cp-image{padding: 0px;margin: 0 20px 20px 0}
+#cp-image img{width: 100%}
+#inside-cloud{background: #fff;width: 100%%;margin: auto;margin-bottom:20px;padding: 20px 10px 0;}/*width: 95%*/
+#cp-button{display: block;margin: 20px auto 40px;white-space: normal !important;}
+
+
+/* About */
+
+.about #accordion{margin: 10px 15px}
+#client-list{margin-left: 20px}
+
+
+/* Career Planning Kit */
+
+.career-planning-kit, .pricing, .explore-mentors, .partner, .career-planning-pages, .du-cutoff{padding: 1px 20px}
+.career-planning-kit h2, .pricing h2, .explore-mentors h2, .partner h2, .career-planning-pages h2, .du-cutoff h2{background: #207EB2;  color: #fff;  font-size: 24px;  line-height: 35px; border-radius: 5px; margin-bottom: 40px}
+.cpk-info{background: #fff;margin-bottom: 20px; padding-left: 25px; padding-right: 25px;}
+.cpk-info ul{padding-left: 20px}
+.cpk-info ul li{font-size: 15px}
+.cpk-images img{width: 100%;display: block;margin: auto;margin-bottom: 20px}
+.cpk-images img.buy-now{width: auto}
+.money-back{background: #000;color: #aaa;position: relative;}
+.money-back img{position: absolute; width: 80px; top: -40px; right: -10px;}
+
+
+/* Blog */
+
+.blog{padding-top: 20px}
+.blog h3{font-size: 19px}
+.blog-section{margin-bottom: 20px}
+.blog-section .date{  width: 15%;
+  float: left;
+  margin-top: 10px;
+  background: url('../img/blue-cloud.png')no-repeat;
+  background-size: contain;
+  height: 60px;
+  color: #fff;
+  margin-right: 1%;
+  line-height: 60px;}
+.blog-section .date span{font-size: 20px;margin-left: 20px}
+.blog-post-main{float: left;width: 84%;background: #fff;border-radius: 5px; padding: 5px 20px;}
+.blog-post-main h3{margin-top: 10px;margin-bottom: 15px}
+.blog-post-main img{margin-right: 20px;width: 100%}/*width: 34%*/
+
+.form-box{background: #207EB2;padding: 10px;color: #fff;border-radius: 5px;margin-bottom: 20px}
+.form-box h3{margin: 0 0 20px;font-weight: bold}
+.form-box ul{margin-left: 20px}
+.form-box ul a{color:#fff;}
+.search input[type="text"]{width: 75%;margin-right: 10px}
+.news input[type="text"]{margin-bottom: 10px}
+
+
+/* Pricing */
+
+.table-responsive table{background: #fff;width: 99.9%}
+.table-responsive tr{border-bottom: 1px solid #ddd}
+.table-responsive table tr td{padding: 10px 15px;border: 1px solid #ccc;white-space: normal!important;}
+.table-responsive table th{border: 1px solid #ccc!important; text-align: center;vertical-align: middle !important; padding: 0px}
+.table-responsive ul{list-style: none}
+td.green-tick{vertical-align: middle !important;text-align: center;}
+td.green-tick i{font-size: 21px;color: #5BBB5B}
+td.red-cross{vertical-align: middle !important;text-align: center;}
+td.red-cross i{font-size: 21px;color: #BB5B5B}
+td.price{vertical-align: middle !important;}
+td.price b{width: 65px;display: block;margin: auto}
+td.price img{width: 100px;display: block;margin: auto}
+
+
+/* Explore Mentors */
+.explore-mentors{padding-bottom: 20px}
+#why-idcm{background: #1C4F81;color: #fff;padding-bottom: 20px;padding-top: 1px}
+#why-idcm ul{margin-left: 15px}
+#blue-bar{background: #207EB2;color:#fff;line-height: 30px;text-align: center;}
+#blue-bar div{position: relative;}
+span.nbr{position: absolute;
+  background: orange;
+  border: 2px solid #fff;
+  line-height: 14px;
+  padding: 2px 5px;
+  margin-left: -30px;
+  margin-top: 3px;
+  border-radius: 20px;}
+.heading-box{background: #207EB2;border: 1px solid #207EB2;text-align: center}
+.heading-box h5, .heading-box h6{color: #fff;margin: 5px 0}
+#mentors-main{background: #fff;padding: 40px 0px}
+.the-mentor{margin-bottom: 20px}
+.the-mentor-desc{border: 1px solid #207EB2;}
+.the-mentor-desc img{width: 100%;display: block;margin: 0px auto 10px}
+.the-mentor-desc ul{margin-left: 40px}
+.narrow-results{background: #fff;margin-top: 10px;padding-bottom: 10px}
+.narrow-results h4{background: #207EB2;color: #fff;padding: 10px;margin-top: 0px}
+.narrow-form{padding: 0px 10px}
+.narrow-form h5{text-decoration: underline;margin-top: 20px}
+.narrow-form input[type="checkbox"]{float: left;margin-right: 5px}
+.h-100{height: 100px;overflow: auto;}
+
+
+
+	.nav li a{color: #444;  font-size: 15px;  font-weight: 500;}
+
+
+
+
+/* Only Desktop */
+
+@media screen and (min-width: 992px){
+
+	.desktop-remove{display: none}
+
+	#top-buttons{margin: 40px 30px 0 0}
+	#mentor-profiles{margin-top: -10px}
+
+	/* Nav */
+	.navbar-inverse{background-color: transparent;}
+
+	.nav-justified{background: #e9e7e6;border-radius: 10px;padding: 0px 10px;
+						background: -moz-linear-gradient(top,  #eeeeee 0%, #cccccc 100%); /* FF3.6+ */
+						background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eeeeee), color-stop(100%,#cccccc)); /* Chrome,Safari4+ */
+						background: -webkit-linear-gradient(top,  #eeeeee 0%,#cccccc 100%); /* Chrome10+,Safari5.1+ */
+						background: -o-linear-gradient(top,  #eeeeee 0%,#cccccc 100%); /* Opera 11.10+ */
+						background: -ms-linear-gradient(top,  #eeeeee 0%,#cccccc 100%); /* IE10+ */
+						background: linear-gradient(to bottom,  #eeeeee 0%,#cccccc 100%); /* W3C */
+						filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
+	}
+
+
+	.nav > li > a:hover{background: #aaa;color: #fff;  border: 1px solid #ddd;  border-top: 1px solid #777; padding: 9px 14px}
+
+	#footer-nl input{margin-left: 5px}
+
+	/* Career Planning */
+	#career-planning ul{margin-top: 20px}
+	#career-planning ul li{margin-top: 20px;font-weight: 500;}
+
+	/* Footer */
+	.footer-menu{border-right: 1px dotted #4C94B3;min-height: 200px}
+
+
+	/* Career Planning Pages */
+	#sky-background{/*min-height: 786px;*/background-image:url('../img/clouds.png');background-repeat: no-repeat;background-size: contain}
+	/*#inside-cloud{margin-top: 150px}*/
+
+
+	/* Career Planning Kit */
+	/*.cpk-images{margin-right: 50px;margin-bottom: 120px}*/
+	.money-back{margin-top: 40px}
+
+
+	/* Explore Mentors */
+	#blue-bar div{padding-top: 3px}
+	span.nbr{margin-top: auto;margin-left: -10px;left: 50%;top: -15px}
+
+.no-pad-right{padding-right: 0px;}
+
+}
+
+
+/* Over 768px */
+
+@media screen and (min-width: 768px){
+
+	.desktop-remove-2{display: none}
+
+	.nav-justified > li{vertical-align: middle;}
+
+	ul.nav li.dropdown:hover > ul.dropdown-menu {display: block;}
+	.dropdown-menu{margin-top: 0px}
+
+	/* Social Media */
+	ul#social-media{position: fixed;top: 300px;right: 0px}
+	ul#social-media li{height: 40px;width: 40px;background: indianred;margin-bottom: 10px;}
+	ul#social-media li:nth-child(2n+1){background: orange}
+
+	/* Explore Mentors */
+	#blue-bar div{padding-top: 3px}
+	span.nbr{margin-top: auto;margin-left: -10px;left: 50%;top: -15px}
+
+	#footer-nl h5{margin-top: 8px}
+}
+
+/* Under 1200px */
+
+@media screen and (max-width: 1200px){
+
+	.mobile-remove-1200{display: none;}
+
+	/* Post Your Query */
+	.du-calculator a.post-your-query{display:block;color:#fff;height:100%;background: #337AB7;padding: 0px 10px;margin-left: 0px;text-decoration: none}
+}
+
+
+
+/* Under 992px */
+
+@media screen and (max-width: 992px){
+
+	.mobile-remove-992{display: none}
+	.mentor{/*width: 33.3%;*/float: right;}
+	.text-center-mobile{text-align: center !important;}
+
+
+	.talk-mentor{margin: auto 10px}
+
+
+	/* Career planning kit */
+	.cpk-info{padding: 5px 15px 20px}
+	.cpk-images img{width: 60%;}
+
+}
+
+
+/* Under 768px */
+
+@media screen and (max-width: 768px){
+
+	.mobile-remove{display: none;}
+	.margin-remove-mobile{margin: 0px}
+	.padding-remove-mobile{padding: 0px}
+	.mt-25-mobile{margin-top: 25px}
+
+	/*.navbar-toggle{border-color: #333}*/
+	.navbar-toggle .icon-bar{background-color: #333 !important}
+	.navbar-toggle:hover .icon-bar{background-color: #fff !important}
+	.navbar-toggle .menu-text{color: #333}
+	.navbar-toggle:hover .menu-text{color: #fff!important}
+	#top-buttons{margin-right: 0px}
+	#top-buttons div{  position: absolute;  top: 150px;  left:15px;  z-index: 1;  background: none;  border: 1px solid #333; color:#333;}
+	#top-buttons div:hover{  background: #333;  color: #fff;}
+	#top-buttons p{margin: auto 0;padding: 2px 0 2px 30px;font-weight: bold}
+
+	.du-calculator a{margin-right: -30px}
+	.du-calculator a.post-your-query{margin-left: -30px}
+
+	#myCarousel, #explore-mentors, #career-planning{border-radius: 0px}
+
+	#mentor-desc ul li{margin-top: auto}
+
+	#mentor-desc{bottom: auto;right: 20px}
+	#mentor-profiles{margin-top: 70px}
+	.mentor{float: left;}
+
+	#myCarousel2{border-radius: 0px}
+
+	/* Clients */
+	#client-logos .col-xs-2{width: 33.3%}
+
+	/* Social Media */
+	ul#social-media{}
+	ul#social-media li{height: 40px;width: 40px;background: indianred;margin-bottom: 10px;border-radius: 20px}
+	ul#social-media li:nth-child(2n+1){background: orange}
+
+
+	/*a#logo{  margin:0px; display: block;  position: absolute;  z-index: 1;  top: 115px;}
+	#logo img{  width: 73px;  background: #fff;  padding: 0 5px;}*/
+
+	#footer-nl .container{padding-bottom: 20px}
+	#footer-nl input{padding: 5px 0}
+
+	/* Blog */
+
+	.blog-section .date{width: 100px;margin-bottom: 10px}
+	.blog-post-main{width: 100%}
+	/*.blog-post-main img{width: 50%}*/
+}
+
+/* Over 480px */
+
+@media screen and (min-width: 480px){
+	.desktop-remove-480{display: none}
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px){	#client-logos .col-xs-2 img{width: 70%}	}
+
+
+/* Under 480px */
+
+@media screen and (max-width: 480px){
+	.mobile-remove-480{display: none}
+	#logo img{width: 100px}
+	#top-buttons div{top: 142px}
+	#top-buttons p{padding-left: 25px}
+	#achievements div{ float: left;  width: 20%;  text-align: center;  font-weight: 500;  color: #207eb2;  font-size: 13px;  padding: 0px 0px; }
+}
+
+
+/* Over 1200px */
+
+@media screen and (min-width: 1200px){
+
+	.desktop-remove-1200{display: none}
+
+	.du-calculator a{margin-right: 100px}
+
+	/* Post Your Query */
+	a.post-your-query{  
+	  position: fixed;
+	  top: 300px;
+	  left: -10px;
+	  margin: 0px;
+	  width: 110px;
+	  text-align: center;
+	  height: 65px;
+	  padding: 10px 0;
+	  line-height: 20px;
+	  background: #337AB7;
+	  border: 2px solid #fff;
+	  outline: 1px solid #337AB7;
+	  z-index: 1;
+	  font-weight: 900;
+	}
+)
